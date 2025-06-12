@@ -45,7 +45,6 @@
     (ok device-id)
   )
 )
-
 ;; Make payment for device usage
 (define-public (pay-for-usage (device-id (string-ascii 64)) (amount uint))
   (let (
