@@ -74,7 +74,6 @@
     (ok payment-id)
   )
 )
-
 ;; Withdraw device earnings (device owner only)
 (define-public (withdraw-earnings (device-id (string-ascii 64)))
   (let (
