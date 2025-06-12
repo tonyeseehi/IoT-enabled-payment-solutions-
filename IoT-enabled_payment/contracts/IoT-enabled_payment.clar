@@ -59,7 +59,6 @@
       { device-id: device-id }
       (merge device { balance: (+ (get balance device) amount) })
     )
-    
     ;; Record payment with stacks-block-height
     (map-set payments
       { payment-id: payment-id }
